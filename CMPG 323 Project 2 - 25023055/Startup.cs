@@ -81,7 +81,7 @@ namespace CMPG_323_Project_2___25023055
             {
                 endpoints.MapControllers();
             });
-            app.UseSwagger(); app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "MyTest Demo"));
+            app.UseSwagger(); app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "CMPG 323 Project2"));
         }
     }
 }
