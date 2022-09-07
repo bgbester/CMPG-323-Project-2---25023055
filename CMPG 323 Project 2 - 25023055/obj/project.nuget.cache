@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B0sqCMVAQaNxHEVVgRA/CrxJwiCPEJXtlqQQBiWR9DmBJM67ZUq2bBy1Awv7ueOftdw9/dufSGJKC5BGT7kkSQ==",
+  "dgSpecHash": "wWJfitEk/e7d5B8ghhXihpxfNiinbj/pGfNPbA3ugoZtjuiUrVUzlLR5FQupFuA958rO2xxzmvF9X78IBsawYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brenton\\Desktop\\CMPG 323 Project 2 - 25023055\\CMPG 323 Project 2 - 25023055\\CMPG 323 Project 2 - 25023055.csproj",
+  "projectFilePath": "C:\\Users\\Brenton\\Nextcloud\\Github\\CMPG-323-Project-2---25023055\\CMPG 323 Project 2 - 25023055\\CMPG 323 Project 2 - 25023055.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brenton\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Brenton\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
