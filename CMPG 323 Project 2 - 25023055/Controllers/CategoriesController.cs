@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CMPG_323_Project_2___25023055.Models;
 using JWTAuthentication.Authentication;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace CMPG_323_Project_2___25023055.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
