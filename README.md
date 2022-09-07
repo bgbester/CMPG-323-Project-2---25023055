@@ -15,6 +15,35 @@ We will store our authentication details in a text file, for now, we may move it
 
 # Referencing used information
 All the info I get from any 3rd parties will be referenced in the text and the links can be found in my referencing document found at CMPG-323-Overview-25023055/Referencing Document
+
+# API Documentation
+
+No credentials are stored in the code, please see and example of the files you can add appsettings.json
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "ConnStr": "yourconnection string"
+  },
+  "JWT": {
+    "ValidAudience": "http://localhost:4200",
+    "ValidIssuer": "http://localhost:61955",
+    "Secret": "your secret"
+  }
+
+}
  
+All the endpoints are gaurded by authentications
+
+Some tables are gaurded by admin auth and some users have access
+
+Applying the [Authorize] attribute to a controller, action, or Razor Page, limits access to that component to authenticated users.
 
 BG Bester 25023055
